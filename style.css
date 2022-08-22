@@ -1,0 +1,84 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+.color-text {
+    color: tomato;
+}
+.on-diet {
+    width: 50%;
+    margin-left: 3%;
+    padding:5%;
+
+}
+.on-diet img {
+    width: 80%;
+}
+.diet-section {
+    display: flex;
+}
+.food-order {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    background-image:linear-gradient(salmon, tomato);
+    padding: 15px 30px;
+    border-radius: 25px;
+}
+.about-section {
+    display: flex;
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+.on-about {
+    width: 50%;
+    margin-left: 3%;
+    padding: 5%;
+}
+.on-about img {
+    width: 50%;
+}
+.my-recipies {
+    padding: 2%;
+    text-align: center;
+    font-size: 20px;
+}
+.recipie-items {
+    display: flex;
+    /* width: 40%; */
+}
+.food-item {
+    width: 40%;
+    margin: 5%;
+    padding: 5%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 25px;
+}
+.food-item img {
+    width: 100%;
+}
+.footer-div {
+    display: flex;
+}
+.last-div {
+    margin: 3%;
+    margin-left: 0%;
+    padding-left: 17%;
+}
+
+
+
+
+
+.last-item {
+    padding: 3%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
